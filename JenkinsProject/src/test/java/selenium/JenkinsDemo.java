@@ -13,7 +13,9 @@ public class JenkinsDemo {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/login.php");
+		System.out.print(driver.getTitle());
 		
 	}
 
 }
+
